@@ -1,0 +1,63 @@
+/* 全体のcss */
+.register-form__inner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F2F2F2;
+}
+
+/* "会員登録"のcss */
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+/* フォームのcss */
+.register-form__group {
+    margin-bottom: 40px;
+    width: 200%;
+    height: 40px;
+}
+
+.register-form__input {
+    width: 400px;
+    height: 40px;
+    padding: 0 10px;
+    background: #F2F2F2;
+    border-radius: 5px;
+    border: solid 1.5px #909090;
+}
+
+/* 会員登録ボタンのcss */
+.register-form__btn {
+    width: 400px;
+    border: none;
+    background-color: #214BE0;
+    color:#FFFFFF;
+    padding: 10px;
+    border-radius: 5px
+}
+
+/* バリデーションのcss */
+.register-form__error-message {
+    color:red;
+    margin-top: 5px;
+}
+
+/* "アカウントをお持ちの方はこちらから"のcss */
+.register-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #909090;
+    margin: 30px;
+}
+
+/* ログイン画面へ遷移するボタンのcss */
+.register-login__btn {
+    color: #214BE0;
+    border: none;
+}

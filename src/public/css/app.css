@@ -1,0 +1,52 @@
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.header__logo {
+    margin-top: 35px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.header-link {
+    display: flex;
+}
+
+.header-btn__logout,
+.header-btn__admin {
+    font-size: 15px;
+    background: none;
+    border: none;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.header-link__item {
+    margin: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.main {
+    flex: 1;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    /* width: 100%; */
+    text-align: center;
+    padding: 20px;
+}
+
+.footer__logo {
+    font-size: 20px;
+}

@@ -1,0 +1,65 @@
+/* 全体のcss */
+.login-form__inner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    height: 720px;
+}
+
+/* "ログイン"のcss */
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+/* フォームのcss */
+.login-form__group {
+    margin-bottom: 40px;
+    width: 200%;
+    height: 40px;
+}
+
+.login-form__input {
+    width: 400px;
+    height: 40px;
+    padding: 0 10px;
+    background: #F2F2F2;
+    border-radius: 5px;
+    border: solid 1.5px #909090;
+}
+
+/* ログインボタンのcss */
+.login-form__btn {
+    width: 400px;
+    border: none;
+    background-color: #214BE0;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* バリデーションのcss */
+.login-form__error-message {
+    margin-top: 5px;
+    color: red;
+}
+
+/* "アカウントをお持ちでない方はこちらから"のcss */
+.login-register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #909090;
+    margin: 30px;
+}
+
+/* ログイン画面へ遷移するボタンのcss */
+.login-register__btn {
+    color: #214BE0;
+    border: none;
+    /* margin: 10px auto; */
+}
