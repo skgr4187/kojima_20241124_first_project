@@ -1,13 +1,1 @@
-# kojima_first_project
-# 20241124_kojima
-# 20241124_kojima
-# 20241124_kojima
-# 20241124_kojima
-# 20241124_kojima
-# 20241124_kojima
-# 20241124_kojima
-# 20241124_kojima
-# first_project_kojima
-# first_project_kojima
-# first_project_kojima
 # kojima_20241124_first_project
